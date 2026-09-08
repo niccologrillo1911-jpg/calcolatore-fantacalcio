@@ -1,5 +1,5 @@
 # Calcolatore Giornate e Classifica
 
-App pubblica:
+App pubblica sincronizzata:
 
-**https://fantacalcio-app.tiiny.site/**
+**https://fantacalcio-app-830efd.tiiny.site/**
