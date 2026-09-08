@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0e0f0e" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <title>Calcolatore Giornate e Classifica</title>
+  <style>
+    html,body{margin:0;min-height:100%;background:#0e0f0e;color:#f3f4f1;font-family:system-ui,sans-serif;}
+    main{max-width:40rem;margin:0 auto;padding:2.5rem 1.25rem;}
+    h1{font-size:1.4rem;line-height:1.3;}
+    p,li{color:#c5c8c0;line-height:1.55;}
+    a{color:#9be38a;}
+    code{background:#1a1c1a;padding:.1rem .35rem;border-radius:4px;}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Calcolatore Giornate e Classifica</h1>
+    <p>Il sito pubblico è attivo. Per completare la pubblicazione carica dal computer i file <code>index.html</code>, <code>icon-192.png</code> e <code>icon-512.png</code> nella cartella del repository.</p>
+    <p>Poi condividi questo stesso indirizzo con chi deve usare l’app.</p>
+  </main>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./sw.js").catch(function () {});
+      });
+    }
+  </script>
+</body>
+</html>
